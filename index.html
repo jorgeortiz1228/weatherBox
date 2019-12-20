@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drayville's Weather</title>
+    <link rel="shortcut icon" href="images/drayville-squirrel-logo.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Drayville Presents: Weather Box</h1>
+    </header>
+    <div class="main">
+        <div id="search">
+            <label for="city">City Name</label>
+            <input type="text" id="city">
+            <button type="button">Show Weather !</button>
+        </div>
+        <div id="load">Loading...</div>
+        <div id="weather">
+            <h1 id="weatherCity">City Name</h1>
+
+            <div id="weatherDescription">Weather Description</div>
+            <div id="weatherTemperature">Temperature</div>
+
+        </div>
+    </div>
+    <script type='text/javascript' src='config.js'></script>
+    <script src="init.js"></script>
+    <script src="weather-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
